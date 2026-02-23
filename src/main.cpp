@@ -1,5 +1,5 @@
 #include <glad/glad.h>
-#include <glfw/glfw3.h>
+#include <glfw/include/GLFW/glfw3.h>
 
 #include <iostream>
 
@@ -7,6 +7,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
 int main(){
+
     //glfw initialization and configuration
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -29,6 +30,10 @@ int main(){
         return -1;
     }
 
+    //build and compiling shaders
+    //vertex shader
+    unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    
     //render loop
     while(!glfwWindowShouldClose(window)){
         //input

@@ -1,0 +1,10 @@
+^C:\USERS\PERRY\VSCODE\FIGHTER\BUILD\CMAKEFILES\195BE20EB553D14A4207DEA2545D50A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/perry/VScode/Fighter -BC:/Users/perry/VScode/Fighter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/perry/VScode/Fighter/build/cmake_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

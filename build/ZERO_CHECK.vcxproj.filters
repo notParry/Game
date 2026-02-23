@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\perry\VScode\Fighter\build\CMakeFiles\195be20eb553d14a4207dea2545d50a8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E528DD7C-4610-3FD2-9E24-D198B60C5DF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

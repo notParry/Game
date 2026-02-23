@@ -1,0 +1,3 @@
+C:/Users/perry/VScode/Fighter/build/CMakeFiles/cmake_test.dir
+C:/Users/perry/VScode/Fighter/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/perry/VScode/Fighter/build/CMakeFiles/ZERO_CHECK.dir
